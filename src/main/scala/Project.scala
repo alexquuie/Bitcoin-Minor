@@ -27,7 +27,7 @@ case class Mining(k : Int, block : Long, blockSize : Int)
 case class Stop()
 case object Stop
 
-object Project1 {
+object Project {
 	def main(args : Array[String]) {
 		val (ip, k, numOfCoins, roleInSystem) = readArgs(args)
 		val appConfig = ConfigFactory.load()
